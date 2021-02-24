@@ -1,0 +1,26 @@
+Status: FAILED
+Time Taken: 8905
+Size: 0
+Timestamp: Wed Feb 24 13:31:59 IST 2021
+TestStep: Call Login Service
+
+----------------- Messages ------------------------------
+org.apache.http.conn.HttpHostConnectException: Connection to http://DESKTOP-331FDEB:8088 refused
+
+----------------- Properties ------------------------------
+Endpoint: http://DESKTOP-331FDEB:8088/mockShoppingServiceSoapBinding
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://expertz.me/data/eCommerce/ShoppingService/1.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:loginRequest>
+         <ns:username>Ashok</ns:username>
+         <ns:password>Welcome1</ns:password>
+      </ns:loginRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+- missing response / garbage collected -
